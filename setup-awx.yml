@@ -11,5 +11,4 @@
   become: yes
   user: adminlx
   roles:
-  - { role: install-awx, tags: ["install_awx"]}
-    
+  - { role: install-awx, tags: ["install_awx"]}    
