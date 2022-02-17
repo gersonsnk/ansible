@@ -1,7 +1,7 @@
 - hosts: awx
   become: yes
   user: adminlx
-  gather_facts: yes
+  gather_facts: 
   pre_tasks:
     - name: 'Install o Python'
       raw: 'apt-get install -y python'
