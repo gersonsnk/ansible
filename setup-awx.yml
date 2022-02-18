@@ -10,5 +10,6 @@
 - hosts: awx
   become: yes
   user: adminlx
-  roles: { role: install-awx, tags: ["install_awx"]}
+  roles: 
+  - { role: install-awx, tags: ["install_awx"]}
     
